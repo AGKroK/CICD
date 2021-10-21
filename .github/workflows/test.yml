@@ -1,0 +1,10 @@
+name: Hellow World
+on: [push] #событие 
+jobs: #работы
+  hello: #название работы
+    runs-on: ubuntu-latest #OS
+    steps: #шаги
+      - name: Hello  #название шага
+        run: echo "Hellow World" #действия
+        
+        
